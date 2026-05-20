@@ -7,8 +7,10 @@
 </ion-header>
 
 <ion-content>
-
+  {{contador}}
   <div class="mapa" id="mapId"></div>
  
-  <ion-button (click)="obtenerPunto()" >Localizar</ion-button>
+  <ion-button (click)="Punto()" >Localizar</ion-button>
+
+    <ion-button (click)="trazar()" >Dibujar Ruta</ion-button>
 </ion-content>
